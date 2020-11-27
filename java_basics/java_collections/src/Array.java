@@ -1,5 +1,5 @@
 
-
+// Array Store Primitive DataType while Collection Classes Are Store Primitive DataType it Automatic Cast to the Object 
 public class Array {
 
 	@SuppressWarnings("unused")
