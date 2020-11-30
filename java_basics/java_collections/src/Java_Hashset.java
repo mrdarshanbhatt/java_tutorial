@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class Java_hashset {
+public class Java_Hashset {
 
 	public static void main(String[] args) {
 
@@ -11,6 +11,8 @@ public class Java_hashset {
 		for (int i = 0; i < 100; i++) {
 
 			integers.add(i);
+			// Every TIme add '1' but not accept
+			integers.add(1);
 
 		}
 

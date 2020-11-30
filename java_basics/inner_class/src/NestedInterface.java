@@ -1,15 +1,12 @@
 
-
-import inner_class.DisplayInterface.ShowInterface;
-
-public class NestedInterface implements ShowInterface, DisplayInterface {
+public class NestedInterface implements DisplayInterface.ShowInterface, DisplayInterface {
 
 	public static void main(String[] args) {
 
 		// UpCasting the DataType (Dynamic Method Dispatch)...
-		DisplayInterface.ShowInterface interface1 = new NestedInterface();
+		DisplayInterface.ShowInterface showDisplay = new NestedInterface();
 
-		interface1.show();
+		showDisplay.show();
 
 	}
 
@@ -20,8 +17,8 @@ public class NestedInterface implements ShowInterface, DisplayInterface {
 
 	@Override
 	public void show() {
-
-		System.out.println("Show Method Call.");
+		
+		System.out.println("Call Show Method");
 
 	}
 

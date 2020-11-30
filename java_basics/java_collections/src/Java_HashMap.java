@@ -1,5 +1,4 @@
 
-
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -17,6 +16,10 @@ public class Java_HashMap {
 		map.put("Word", "is");
 		map.put("Adverb", "best");
 
+		// HashMap Allow One null Key and one or more Null Value
+		map.put(null, null);
+		map.put("NullKey", null);
+		
 		// Print map
 		System.out.println(map);
 
