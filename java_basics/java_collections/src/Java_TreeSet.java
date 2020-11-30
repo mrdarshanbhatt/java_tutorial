@@ -32,7 +32,7 @@ public class Java_TreeSet {
 			System.out.println(iterator.next());
 
 		}
-
+ 
 		// it Gives the SubSet and TailSet with Boolean Args
 		System.out.println(treeSet.subSet("Java2", true, "Java6", false)); // True -> Inclusive 
 																		   // False -> Exclusive
