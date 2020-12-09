@@ -11,7 +11,7 @@ public class ChainException {
 		try {
 
 			r.devided(0, 0);
-
+ 
 		} catch (ArithmeticException exception) {
 
 			System.out.println("Java.lang.Exception:" + exception.getCause());
