@@ -10,7 +10,7 @@ public class If_else_ladder {
 		try (Scanner scanner = new Scanner(System.in)) {
 	
 			long grade = scanner.nextLong();
-
+ 
 			if (grade >= 90)
 			
 				System.out.println("A++");
