@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;
 
 public class If_else_ladder {
@@ -8,9 +6,9 @@ public class If_else_ladder {
 
 		// if-else-if ladder Statement
 		try (Scanner scanner = new Scanner(System.in)) {
-	
+			
 			long grade = scanner.nextLong();
- 
+			
 			if (grade >= 90)
 			
 				System.out.println("A++");
