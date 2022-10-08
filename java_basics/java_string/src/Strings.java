@@ -18,7 +18,7 @@ public class Strings {
 
 		System.out.println("IndexOF method = " + s.indexOf('l'));
 
-		System.out.println("LastINs=dexOf MEthod" + s.lastIndexOf('e'));
+		System.out.println("LastIndexOf Method" + s.lastIndexOf('e'));
 
 		System.out.println("Compareto method = " + s.compareTo("Computer"));
 
@@ -33,6 +33,8 @@ public class Strings {
 		System.out.println("End With =" + s.endsWith("ve"));
 
 		System.out.println("Trim Method = " + s.trim());
+		
+		System.out.println("Contains Method = " + s.contains("ty"));
 
 	}
 
