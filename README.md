@@ -20,7 +20,7 @@
 ## Source of Learn Java that contain best Content...
 1.  Java Documentation for 1.8 [Here](https://docs.oracle.com/javase/8/docs/)
 2.  Best Platform to learn code step by step from [Here](Programiz.com)
-3.  Topic referece from [Here](https://www.javatpoint.com/)
+3.  Topic reference from [Here](https://www.javatpoint.com/)
 4.  Understand the Core & Advance Concept of java from [Here](https://www.youtube.com/channel/UCYW6abk8tLHdZiTa6oJjBcw) and [Here](https://www.youtube.com/user/javaboynavin)
 
 ## Support...
