@@ -13,6 +13,11 @@ public class ForEachLoop {
 			System.out.println(input);
 
 		}
+		
+		 List<String> ls = new ArrayList<String>();
+  		 ls.add("123");
+    		 ls.add("456");
+   		 ls.forEach(x->System.out.println(x));
 
 	}
 
